@@ -8,6 +8,7 @@ let tf = document.createElement('p')
 
 tf.appendChild(document.createTextNode('Total fruits: 4'))
 tf.id = 'fruits-total'
+tf.setAttribute('title','fruits-total')
 let sd = document.querySelectorAll('div')[1]
 let fruits =document.querySelector('.fruits')
 sd.insertBefore(tf,fruits)
