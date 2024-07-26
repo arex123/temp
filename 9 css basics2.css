@@ -1,0 +1,16 @@
+/* Write your code here */
+form{
+    padding:25px;
+    background:pink;
+  }
+  #name[type="text"]{
+    height:25px;
+  }
+  
+  label[for="name"]{
+    font-style:italic;
+  }
+  .btn{
+    margin-top:25px;
+    padding:10px;
+  }
